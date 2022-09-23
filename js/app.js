@@ -59,4 +59,44 @@ if (age < 21 && age >= 18) {
 if (age < 18) {
     console.log("Vous etes mineur");
 }
-//Les 3 operateurs booleens sont <, >=
+//Les 3 operateurs booleens sont ||, &&, !
+
+
+function direBonjour() {
+    console.log("Bonjour");
+}
+direBonjour();
+
+function direBonjourAkelkain(name) {
+    console.log("Bonjour" + " " + name);
+}
+direBonjourAkelkain("Korèn");
+
+function hello(name, city) {
+    if (city) {
+        console.log("Bonjour" + " " + name + " " + "Vous habitez" + " " + city);
+    } else {
+        console.log("Bonjour" + " " + name + " " + "Vous habitez Lyon");
+    }
+}
+hello("Korèn", "Brignais");
+
+function add(a, b) {
+    return a + b;
+}
+console.log(add(1, 2));
+
+function div(a, b) {
+    return a / b;
+}
+console.log(div(10, 2));
+
+function positive(num) {
+    if (num >= 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(positive(15));
+
