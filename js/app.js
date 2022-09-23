@@ -100,3 +100,9 @@ function positive(num) {
 }
 console.log(positive(15));
 
+
+age = parseInt(age);
+console.log(age);
+
+let verifier_nombre = isNaN(age);
+console.log(verifier_nombre);
