@@ -37,3 +37,26 @@ console.log(identity);
 //Identity affiche une phrase.
 console.log(majuscule);
 //Majuscule affiche identity mais en majuscule.
+
+age = prompt("Entrer age");
+console.log(age);
+
+if (age <= 0) {
+    console.log("Vous etes un poisson");
+}
+if (age > 0 && age < 120) {
+    console.log("Votre age est valide");
+} else {
+    console.log("Je ne suis pas d'accord");
+}
+
+if (age >= 21) {
+    console.log("Vous etes majeur");
+}
+if (age < 21 && age >= 18) {
+    console.log("Vous etes majeur mais pas aux USA");
+}
+if (age < 18) {
+    console.log("Vous etes mineur");
+}
+//Les 3 operateurs booleens sont <, >=
