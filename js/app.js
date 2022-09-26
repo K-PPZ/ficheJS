@@ -156,3 +156,20 @@ do {
    id++;
 } while(id > 100);
 // La boucle s'execute au moins une fois et après elle est verifier.
+
+let ages = [16, 15, 17, 14, 18];
+console.log(ages);
+console.log(ages[0]);
+console.log(ages[1]);
+console.log(ages[2]);
+console.log(ages[3]);
+console.log(ages[4]);
+
+let longueur = ages.length;
+console.log(longueur);
+// Le dernier index est age[4] et c'est le 5eme element du tableau.
+console.log(ages[ages.length - 1]);
+
+for (let i = 0; i < ages.length; i++) {
+    console.log(ages[i]);
+}
