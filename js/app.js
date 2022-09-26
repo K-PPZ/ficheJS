@@ -141,3 +141,18 @@ while (i <= 100) {
     i ++;
 }
 console.log(result);
+
+
+let key = 0;
+while(key > 100){
+   console.log(key);
+   key++;
+}
+// Cela ne fonctionne pas car la condition est si key plus grand que 100 alors que key egale 0.
+
+let id = 0;
+do {
+   console.log(id);
+   id++;
+} while(id > 100);
+// La boucle s'execute au moins une fois et après elle est verifier.
