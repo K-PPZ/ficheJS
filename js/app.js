@@ -92,11 +92,7 @@ function div(a, b) {
 console.log(div(10, 2));
 
 function positive(num) {
-    if (num >= 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return num >= 0;
 }
 console.log(positive(15));
 
@@ -106,3 +102,14 @@ console.log(age);
 
 let verifier_nombre = isNaN(age);
 console.log(verifier_nombre);
+// verifier_nombre me retourne false avec 42 et me retourne true avec "hello" et me retourne true si je ne met rien et que j'appuis sur ok et pareil pour si j'appuis sur annuler.
+
+function isValid(userInput) {
+    return parseInt(userInput) && userInput > 12 && userInput < 90;
+}
+
+let resultat = isValid(age);
+console.log(resultat);
+let resultatInverse = !resultat;
+console.log(resultatInverse);
+// Si dans age je met 42 resultat m'affiche true et resultatInverse m'affiche false, Si je met "hello" resultat m'affiche NaN et reultatIverse m'affiche true, Si je ne met rien et que j'appuis sur ok c'est la même chose et pareil si j'appuis sur annuler.
