@@ -113,3 +113,31 @@ console.log(resultat);
 let resultatInverse = !resultat;
 console.log(resultatInverse);
 // Si dans age je met 42 resultat m'affiche true et resultatInverse m'affiche false, Si je met "hello" resultat m'affiche NaN et reultatIverse m'affiche true, Si je ne met rien et que j'appuis sur ok c'est la même chose et pareil si j'appuis sur annuler.
+
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+
+let i = 0;
+while (i <= 4) {
+    console.log(i);
+    i++;
+}
+
+i = 99;
+while (i >= 3) {
+    console.log(i);
+    i -= 3;
+}
+
+i = "0";
+let result = "";
+while (i <= 100) {
+    if (i >= "0" && i <= "10" || i >= "90" && i <= "100") {
+        result += i;
+    }
+    i ++;
+}
+console.log(result);
